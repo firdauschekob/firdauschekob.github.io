@@ -13,32 +13,34 @@
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
-
-    <!-- Page Navbar -->
-    <nav class="custom-navbar">
-      <div class="container">
-          <ul class="nav">
-              <li class="item">
-                  <a class="link" href="index.html">Home</a>
-              </li>
-              <li class="item">
-                  <a class="link" href="about.html">About</a>
-              </li>
-              <li class="item">
-                  <a class="link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="item ml-md-3">
-                  <a href="firdauschekob.pdf" class="btn btn-primary">Resume</a>
-              </li>
-          </ul>
-          <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-              <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-              </div>
-          </a>
-      </div>
-  </nav><!-- End of Page Navbar -->
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+	<!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Page Navbar -->
+            <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+                <div id="navbar" class="container">
+                    <a class="logo" href="index.html">Firdaus Che Kob</a>
+                    <ul class="nav">
+                        <li class="item">
+                            <a class="link" href="about.html">About</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="item ml-md-3">
+                            <a href="firdauschekob.pdf" class="btn btn-primary">Resume</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </a>
+                </div>
+            </nav><!-- End of Page Navbar -->
 
    <!-- Page Header -->
    <header class="header header-mini">
@@ -58,6 +60,60 @@
       <!-- container -->
       <div class="container text-center">
 
+          <!-- blog-wrapper 10-->
+          <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="assets/imgs/img-99.jpg" class="blog-card-img">
+            </div>
+            <div class="blog-card-body">
+                <a href="salary.html" class="blog-card-title">Attrition</a>
+                <p class="blog-card-date">Date: 14-05-2025</p>
+
+                <p>attrition
+                </p>
+
+                <p>In this classification model, my plan is to:</p>
+
+                <a href="salary.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+            </div>
+        </div><!-- end of blog wrapper -->
+
+          <!-- blog-wrapper 9-->
+          <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="assets/imgs/img-99.jpg" class="blog-card-img">
+            </div>
+            <div class="blog-card-body">
+                <a href="salary.html" class="blog-card-title">Agriculture</a>
+                <p class="blog-card-date">Date: 28-06-2025</p>
+
+                <p>agriculture
+                </p>
+
+                <p>In this classification model, my plan is to:</p>
+
+                <a href="salary.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+            </div>
+        </div><!-- end of blog wrapper -->
+
+          <!-- blog-wrapper 8-->
+          <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="assets/imgs/img-99.jpg" class="blog-card-img">
+            </div>
+            <div class="blog-card-body">
+                <a href="salary.html" class="blog-card-title">Climbing the Ladder</a>
+                <p class="blog-card-date">Date: 05-05-2025</p>
+
+                <p>How Gender, Education, and Seniority Shape Pay in the Workplace
+                </p>
+
+                <p>In this classification model, my plan is to:</p>
+
+                <a href="salary.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+            </div>
+        </div><!-- end of blog wrapper -->
+
           <!-- blog-wrapper 7-->
           <div class="blog-card">
             <div class="blog-card-header">
@@ -65,19 +121,20 @@
             </div>
             <div class="blog-card-body">
                 <a href="credit.html" class="blog-card-title">Credit Card Approval Prediction (EDA, WOE & IV calculation, Modelling)</a>
+                <p class="blog-card-date">Date: 15-01-2024</p>
 
-                    <p>This is a binary classification model to determine whether a customer application for a credit card should be approved or rejected.
-                      The result shows accuracy score of 76.12% and F1 score of 86.11% for the logistic regression model.
-                    </p>
+                <p>This is a binary classification model to determine whether a customer application for a credit card should be approved or rejected.
+                  The result shows accuracy score of 76.12% and F1 score of 86.11% for the logistic regression model.
+                </p>
 
-                    <p>In this classification model, my plan is to:</p>
-                    <ul>
+                <p>In this classification model, my plan is to:</p>
+                <ul>
                     <li>Observe the Weight of Evidence (WoE) and the Information Value (IV) of the features</li>
                     <li>Use Synthetic Minority Oversampling Technique (SMOTE) to overcome class imbalance in the dataset</li>
-                    <li>Apply different algorithms to the training dataset.
-                    </p>
+                    <li>Apply different algorithms to the training dataset.</li>
+                </ul>
 
-                    <a href="credit.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                <a href="credit.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
             </div>
         </div><!-- end of blog wrapper -->
 
@@ -88,17 +145,18 @@
             </div>
             <div class="blog-card-body">
                 <a href="diamond.html" class="blog-card-title">Diamond Price Prediction using Random Forest</a>
+                <p class="blog-card-date">Date: 24-09-2023</p>
 
-                    <p>A price prediction model of a diamond based on its carat, depth, table and dimension using Random Forest.
-                      This model achieves .98 accuracy based on its R-squared score! 
-                    </p>
+                <p>A price prediction model of a diamond based on its carat, depth, table and dimension using Random Forest.
+                  This model achieves .98 accuracy based on its R-squared score! 
+                </p>
 
-                    <p>This dataset was imported from kaggle.
-                        There are 53,940 diamonds in the dataset with 10 features (carat, cut, color, clarity, depth, table, price, x, y, and z). 
-                        Most variables are numeric in nature, but the variables cut, color, and clarity are ordered factor variables.
-                    </p>
+                <p>This dataset was imported from kaggle.
+                    There are 53,940 diamonds in the dataset with 10 features (carat, cut, color, clarity, depth, table, price, x, y, and z). 
+                    Most variables are numeric in nature, but the variables cut, color, and clarity are ordered factor variables.
+                </p>
 
-                    <a href="diamond.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                <a href="diamond.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
             </div>
         </div><!-- end of blog wrapper -->
 
@@ -109,16 +167,17 @@
               </div>
               <div class="blog-card-body">
                   <a href="AirlineR.html" class="blog-card-title">Sentiment Analysis of Airline Reviews using NLTK</a>
+                  <p class="blog-card-date">Date: 28-07-2023</p>
 
-                      <p>A sentiment polarity analysis of airline reviews using VADER (Valence Aware Dictionary and sEntiment Reasoner) lexicon by NLTK.
-                        VADER lexicon is a rule-based sentiment analyzer in which the terms are generally labeled as per their semantic orientation as either positive or negative.
-                      </p>
+                  <p>A sentiment polarity analysis of airline reviews using VADER (Valence Aware Dictionary and sEntiment Reasoner) lexicon by NLTK.
+                    VADER lexicon is a rule-based sentiment analyzer in which the terms are generally labeled as per their semantic orientation as either positive or negative.
+                  </p>
 
-                      <p>This airline reviews dataset contains 23,171 reviews for 497 airlines and was imported from kaggle. It was collected by web scraping the website https://www.airlinequality.com/ using the Python library Beautiful Soup.
-                        The website serves as a platform for travelers to submit their reviews and ratings about different airlines.
-                      </p>
+                  <p>This airline reviews dataset contains 23,171 reviews for 497 airlines and was imported from kaggle. It was collected by web scraping the website https://www.airlinequality.com/ using the Python library Beautiful Soup.
+                    The website serves as a platform for travelers to submit their reviews and ratings about different airlines.
+                  </p>
 
-                      <a href="AirlineR.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
+                  <a href="AirlineR.html" class="blog-card-link">Read more <i class="ti-angle-double-right"></i></a>
               </div>
           </div><!-- end of blog wrapper -->
 
@@ -129,18 +188,19 @@
               </div>
               <div class="blog-card-body">
                   <a href="labourFS.html" class="blog-card-title">Prediction of Labour Force Size in Malaysia using Linear Regression</a>
+                  <p class="blog-card-date">Date: 12-06-2023</p>
 
-                      <p>A simple linear regression model using Scikit-Learn to predict the annual labour size in Malaysia.
-                        I found this model is suitable for this dataset as the actual data is already considerably linear.
-                      </p>
+                  <p>A simple linear regression model using Scikit-Learn to predict the annual labour size in Malaysia.
+                    I found this model is suitable for this dataset as the actual data is already considerably linear.
+                  </p>
 
-                      <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia.
-                        It is based on The Labour Force Survey (LFS) from the year 1982 to 2021. 
-                        However, there is no data for 1991 and 1994 because the LFS was not conducted in those years. 
-                        The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place.
-                      </p>
+                  <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia.
+                    It is based on The Labour Force Survey (LFS) from the year 1982 to 2021. 
+                    However, there is no data for 1991 and 1994 because the LFS was not conducted in those years. 
+                    The sum of each category may not always equal to the totals shown in related tables because of independent rounding to one decimal place.
+                  </p>
 
-                      <a href="labourFS.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
+                  <a href="labourFS.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
               </div>
           </div><!-- end of blog wrapper -->
 
@@ -150,17 +210,18 @@
                   <img src="assets/imgs/img-03.jpg" class="blog-card-img">
               </div>
               <div class="blog-card-body">
-                  <a href="income2.html" class="blog-card-title">Income Distribution in Malaysia (2)</a>
+                  <a href="income2.html" class="blog-card-title">Income Distribution in Malaysia (By Demographics)</a>
+                  <p class="blog-card-date">Date: 10-06-2023</p>
 
-                      <p>This is another Exploratory Data Analysis (EDA) on income distribution in Malaysia to look further into comparison by different categories.
-                        I used matplotlib and seaborn to visualise the mean income by different education level, gender, ethnicity and industry.
-                      </p>
+                  <p>This is another Exploratory Data Analysis (EDA) on income distribution in Malaysia to look further into comparison by different categories.
+                    I used matplotlib and seaborn to visualise the mean income by different education level, gender, ethnicity and industry.
+                  </p>
 
-                      <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia. It is based on The Salaries & Wages Survey, 
-                        which collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. 
-                        The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics.</p>
+                  <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia. It is based on The Salaries & Wages Survey, 
+                    which collects data via a stratified two-stage sample design, thus obtaining representative data at the national and state level. 
+                    The implementation of this survey is based on guidelines and recommendations of the International Labour Organization (ILO) with reference to An Integrated System of Wages Statistics.</p>
 
-                      <a href="income2.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
+                  <a href="income2.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
               </div>
           </div><!-- end of blog wrapper -->
          
@@ -170,14 +231,15 @@
                 <img src="assets/imgs/img-02.jpg" class="blog-card-img">
             </div>
             <div class="blog-card-body">
-                <a href="income.html" class="blog-card-title">Income Distribution in Malaysia</a>
+                <a href="income.html" class="blog-card-title">Income Distribution in Malaysia (By State)</a>
+                <p class="blog-card-date">Date: 02-06-2023</p>
 
-                    <p>Inspired by a <a href="https://twitter.com/Thevesh/status/1684855543771578368?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1684855543771578368%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=notion%3A%2F%2Fwww.notion.so%2FData-Science-Projects-32db49da61704a87a2f4c150bafb039e"><b>tweet</b></a> 
-                        from Thevesh, a data scientist in Central Bank of Malaysia. I tried to replicate the ridge plot and other data visualization using Seaborn.</p>
+                <p>Inspired by a <a href="https://twitter.com/Thevesh/status/1684855543771578368?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1684855543771578368%7Ctwgr%5E%7Ctwcon%5Es1_&ref_url=notion%3A%2F%2Fwww.notion.so%2FData-Science-Projects-32db49da61704a87a2f4c150bafb039e"><b>tweet</b></a> 
+                    from Thevesh, a data scientist in Central Bank of Malaysia. I tried to replicate the ridge plot and other data visualization using Seaborn.</p>
 
-                    <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia. It is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022.</p>
+                <p>This dataset was imported from OpenDOSM, an open-sourced website by Department of Statistics Malaysia. It is based on Household Income Surveys (HIS) and Household Income & Expenditure Surveys (HIES) carried out from 1970 to 2022, the latest of which is HIES 2022.</p>
 
-                    <a href="income.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
+                <a href="income.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
             </div>
           </div><!-- end of blog wrapper -->
          
@@ -188,13 +250,14 @@
             </div>
             <div class="blog-card-body">
                 <a href="vgames.html" class="blog-card-title">Video Games Sales Analysis</a>
+                <p class="blog-card-date">Date: 13-05-2023</p>
 
-                    <p>This is an Exploratory Data Analysis and simple visualization for video games sales by genre, platform and region.</p>
+                <p>This is an Exploratory Data Analysis and simple visualization for video games sales by genre, platform and region.</p>
 
-                    <p>This dataset contains a list of video games with sales greater than 100,000 copies from the year 1980 to 2016. 
-                        It was generated by a scrape of vgchartz.com.</p>
+                <p>This dataset contains a list of video games with sales greater than 100,000 copies from the year 1980 to 2016. 
+                    It was generated by a scrape of vgchartz.com.</p>
 
-                    <a href="vgames.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
+                <a href="vgames.html" class="blog-card-link">View Source Code <i class="ti-angle-double-right"></i></a>
             </div>
           </div><!-- end of blog wrapper -->
 
@@ -215,9 +278,12 @@
       </footer>
    </div> <!-- end of page footer -->
 
-   <!-- core  -->
-   <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-   <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- main js -->
     <script src="assets/js/main.js"></script>

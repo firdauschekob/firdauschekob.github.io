@@ -13,32 +13,34 @@
    <link rel="stylesheet" href="assets/css/main.css">
 </head>
 
-<body>
-
-    <!-- Page Navbar -->
-    <nav class="custom-navbar">
-      <div class="container">
-          <ul class="nav">
-              <li class="item">
-                  <a class="link" href="index.html">Home</a>
-              </li>
-              <li class="item">
-                  <a class="link" href="about.html">About</a>
-              </li>
-              <li class="item">
-                  <a class="link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="item ml-md-3">
-                  <a href="firdauschekob.pdf" class="btn btn-primary">Resume</a>
-              </li>
-          </ul>
-          <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
-              <div class="hamburger-box">
-                  <div class="hamburger-inner"></div>
-              </div>
-          </a>
-      </div>
-   </nav><!-- End of Page Navbar -->
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+	<!-- Page Wrapper -->
+        <div id="page-wrapper">
+            <!-- Page Navbar -->
+            <nav class="custom-navbar" data-spy="affix" data-offset-top="20">
+                <div id="navbar" class="container">
+                    <a class="logo" href="index.html">Firdaus Che Kob</a>
+                    <ul class="nav">
+                        <li class="item">
+                            <a class="link" href="about.html">About</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="item">
+                            <a class="link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="item ml-md-3">
+                            <a href="firdauschekob.pdf" class="btn btn-primary">Resume</a>
+                        </li>
+                    </ul>
+                    <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
+                        <div class="hamburger-box">
+                            <div class="hamburger-inner"></div>
+                        </div>
+                    </a>
+                </div>
+            </nav><!-- End of Page Navbar -->
 
    <!-- Page Header -->
    <header class="header header-mini">
@@ -63,100 +65,123 @@
                      <img src="assets/imgs/profile.JPG" class="about-img">
                  </div>
                  <div class="about-caption">
-                     <p>
-                        My first big step into the realm of data science was when I learnt about regression in Econometrics 
-                        back in King's Business School. I started to explore more, taking online courses and doing my own personal projects.
-                        I genuinely enjoyed exploring new concepts and figuring out a tough challenge/error.
-                     </p>
-                     <p>
-                        When I realised I was excitedly explaining to my friends about this brilliant workaround in a particular algorithm and how cool it is, 
-                        I knew then to aim for it as a career, to be a data scientist! (ngl, the title is also just too cool) <br>
-                        Hence, everyday I commit myself to consistently learn something new, no matter how small it might seems,
-                        whether that be about Cloud Infrastructure, Data Science, Machine Learning or matters of the economy.
-                     </p>
-                     <p>
-                         Other things about me, I am from Kelantan, Malaysia. I love hiking and bouldering. <br>
-                         I also enjoy meeting different kinds of people and trying out new food.
-                     </p>
-                     <button class="btn-rounded btn btn-outline-primary mt-4" onclick="window.location.href='firdauschekob.pdf';">
+                    <p>
+                        A passionate explorer of data, always connecting data, people, and decisions.
+                    </p>
+                    <p>
+                        I enjoy optimising data workflows, and processes, and take great satisfaction in bringing a well-designed end-to-end solution come to life. <br>
+                    </p>
+                    <p>
+                        My focus is on continuous learning and applying best practices in Business Intelligence and Machine Learning.
+                    </p>
+                    <p>
+                        Outside of work, I enjoy hiking and discovering new food spots. 
+                    </p>
+                    <button class="btn-rounded btn btn-outline-primary mt-4" onclick="window.location.href='firdauschekob.pdf';">
                          Resume</button>
                  </div>
              </div><!-- end of about wrapper -->
          </div><!-- end of container -->
-       </section> <!-- end of about section -->
-       
-       <section class="design-section">
-         <div class="timeline">
-         
-                   <!--Well, The reason for this div is to fill space. 
-         This space is technically used for keeping dates, 
-         but I didn't find the need for dates. However, I'll provide 
-         you the styling for dates, so that you can use it if you 
-         wanted to.-->
-            <div class="timeline-empty"></div>
-         
-         <!--This is the class where the timeline graphics are 
-         housed in. Note that we have timeline-circle 
-         here for that pointer in timeline.-->
-         
-                <div class="timeline-middle">
-                  <div class="timeline-circle"></div>
-               </div>
-                     <div class="timeline-component timeline-content">
-                         <h6>June 2021 - September 2021</h6>
-                         <p>Marketing Analytics Intern for a marketing research under 
-                           King's Undergraduate Research Fellowship (KURF).
-                         </p>
-                     </div>
+       </section> <!-- end of about section -->     
 
-                     <div class="timeline-component timeline-content">
-                         <h6>December 2021</h6>
-                         <p>Freelance Data Analyst providing data cleaning services.</p>
-                     </div>
+      <!-- divider -->
+      <div class="py-5"></div>
 
-               <div class="timeline-middle">
-                  <div class="timeline-circle"></div>
-               </div>
-                         <div class="timeline-empty">
-                         </div>
-         
-                         <div class="timeline-empty">
-                         </div>
-         
-               <div class="timeline-middle">
-                   <div class="timeline-circle"></div>
-               </div>
-                     <div class=" timeline-component timeline-content">
-                         <h6>July 2022</h6>
-                         <p>Graduated from King's College London with BSc. (Hons) Economics & Management.</p>
-                     </div>
-         
-                     <div class="timeline-component timeline-content">
-                        <h6>November 2022 - March 2023</h6>
-                        <p>Operations Executive at Hong Leong Bank.</p>
-                     </div>
-               <div class="timeline-middle">
-                  <div class="timeline-circle"></div>
-               </div>
-                     
-                     <div class="timeline-empty">
-                     </div>
+        <section class="certificate-section" id="certifications">
+                <h1 class="my-sm-5">Certificates</h1>
+                <div class="container text-center">
+                    <!-- row -->
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="https://www.tableau.com/learn/certification" class="cert-card">
+                                <img src="assets/imgs/tableau.png" class="cert-card-img">
+                                <span class="cert-card-overlay">
+                                    <span class="cert-card-caption">
+                                        <h5>Salesforce Certified Tableau Data Analyst</h5>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://learn.microsoft.com/api/credentials/share/en-us/FirdausCheKob/1440FB2D4B4EDD7C?sharingId=165A9AF22EA5461C" class="cert-card">
+                                <img class="cert-card-img" src="assets/imgs/pbi.png" class="img-responsive rounded">
+                                <span class="cert-card-overlay">
+                                    <span class="cert-card-caption">
+                                        <h5>Microsoft Power BI Data Analyst</h5>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div><!-- end of row -->
+                </div><!-- end of container -->
+        </section>
 
-                     <div class="timeline-empty">
-                     </div>
-     
-               <div class="timeline-middle">
-                  <div class="timeline-circle"></div>
-               </div>
-                     <div class=" timeline-component timeline-content">
-                        <h6>March 2023 - Present</h6>
-                        <p>Data Analyst at Alpro Pharmacy.</p>
-                     </div>
+      <!-- divider -->
+      <div class="py-5"></div>
 
-                </div>
-             </div> 
-         </section>
+        <section class="timeline-section">
+        <h1 class="my-sm-5">Education & Work Experience</h1>
+        <div class="timeline">
 
+            <div class="timeline-row right valiram">
+            <div class="timeline-content">
+                <h6><b>May 2024 – Present</b></h6>
+                <p class="title">Business Intelligence Developer</p>
+                <p class="institution">Valiram Group</p>
+            </div>
+            </div>
+
+            <div class="timeline-row left msc">
+            <div class="timeline-content">
+                <h6><b>Mar 2025 – Aug 2026</b></h6>
+                <p class="title">MSc. Data Science</p>
+                <p class="institution">Universiti Malaya</p>
+            </div>
+            </div>
+
+            <div class="timeline-row right alpro">
+            <div class="timeline-content">
+                <h6><b>Mar 2023 – Apr 2024</b></h6>
+                <p class="title">Data Analyst (Business Intelligence)</p>
+                <p class="institution">Alpro Pharmacy</p>
+            </div>
+            </div>
+
+            <div class="timeline-row right hlb">
+            <div class="timeline-content">
+                <h6><b>Nov 2022 – Mar 2023</b></h6>
+                <p class="title">Operations Executive (Credit Division)</p>
+                <p class="institution">Hong Leong Bank</p>
+            </div>
+            </div>
+
+            <div class="timeline-row right freelance">
+            <div class="timeline-content">
+                <h6><b>Nov 2021 - Apr 2022</b></h6>
+                <p class="title">Freelance Data Analyst (data cleaning service)</p>
+                <p class="institution">Fiverr & Upwork</p>
+            </div>
+            </div>
+
+            <div class="timeline-row right kurf">
+            <div class="timeline-content">
+                <h6><b>Jun 2021 – Sept 2021</b></h6>
+                <p class="title">Marketing Analytics Research Fellow</p>
+                <p class="institution">King's Undergraduate Research Fellowship (KURF)</p>
+            </div>
+            </div>
+
+            <div class="timeline-row left kcl">
+            <div class="timeline-content">
+                <h6><b>Sept 2019 – Jul 2022</b></h6>
+                <p class="title">BSc. (Hons) Economics & Management</p>
+                <p class="institution">King's College London</p>
+            </div>
+            </div>
+
+        </div>
+        </section>
+        
       <!-- divider -->
       <div class="py-5"></div>
 
@@ -183,13 +208,30 @@
       </footer>
    </div> <!-- end of page footer -->
 
-   <!-- core  -->
-   <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
-   <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <!-- core  -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script>
+    $(document).ready(function() {
+        $('.scrolly').scrolly({
+            speed: 1000,
+            easing: 'swing'
+        });
+    });
+    </script>
+
+    <!-- bootstrap 3 affix -->
+    <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
 
     <!-- main js -->
     <script src="assets/js/main.js"></script>
 
+    <!-- Cloudflare Web Analytics -->
+    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bbfe7201a1d44461a96e031d6408f836"}'></script>
+    <!-- End Cloudflare Web Analytics -->
+
 </body>
 
 </html>
+
