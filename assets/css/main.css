@@ -12509,3 +12509,40 @@ pre .code {
       .highlight .s { color: #032f62; }
       .highlight .c { color: #6a737d; font-style: italic; }
       .highlight .m { color: #005cc5; }
+/* Certificates: single row */
+.certificate-section .row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    margin: 0;
+}
+
+.certificate-section .cert-col {
+    flex: 1 1 0;
+    max-width: 260px;
+    min-width: 0;
+}
+
+.certificate-section .cert-card {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.certificate-section .cert-card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* 2x2 on phones so badges stay readable */
+@media (max-width: 767px) {
+    .certificate-section .row {
+        flex-wrap: wrap;
+    }
+    .certificate-section .cert-col {
+        flex: 0 0 calc(50% - 12px);
+    }
+}
